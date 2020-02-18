@@ -44,5 +44,14 @@
   <build>
 	<finalName>java-web-study</finalName>
 <!--	<outputDirectory>${my.project.basedir}/target/classes</outputDirectory> -->
+	<resources>
+		<resource>
+		<directory>src/main/resources</directory>
+		</resource>
+		<resource>
+		<directory>src/main/resources-${env}</directory>
+		</resource>
+	</resources>
+
   </build>
 </project>
